@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools >= 70.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EscEtl"
+version = "1.1.1"
+dependencies = [
+  "asgiref>3.2.10",
+  "ShopifyAPI@git+https://github.com/Shopify/shopify_python_api.git",
+  "python-slugify",
+  "Unidecode",
+  "pycountry",
+  "phonenumbers",
+  "beautifulsoup4",
+  "jmespath",
+  "asyncio",
+  "argparse3",
+  "beautifulsoup4",
+  "demjson3",
+  "shopify-image-uploader@git+https://github.com/ellie-cee/shopify-image-uploader.git",
+  "xmltodict",
+  "requests",
+  "netsuite",
+  "dateparser",
+  "us",
+  "random-password-generator",
+  "chardet",
+  "charset_normalizer",
+  "dict_recursive_update",
+  "requests",
+  "python-slugify",
+  "paramiko",
+  "requests-toolbelt",
+  "xmltodict",
+  "cffi",
+  "pillow",
+]
+authors = [
+  {name = "eleanor Cassady", email = "ellie@chelseaandrachel.com"},
+]
+description="Common ETL Routines"
