@@ -1,0 +1,35 @@
+Metadata-Version: 2.2
+Name: EscEtl
+Version: 2.1.1
+Summary: Common ETL Routines
+Author-email: eleanor Cassady <ellie@chelseaandrachel.com>
+Requires-Dist: asgiref>3.2.10
+Requires-Dist: ShopifyAPI@ git+https://github.com/Shopify/shopify_python_api.git
+Requires-Dist: python-slugify
+Requires-Dist: Unidecode
+Requires-Dist: pycountry
+Requires-Dist: phonenumbers
+Requires-Dist: beautifulsoup4
+Requires-Dist: jmespath
+Requires-Dist: asyncio
+Requires-Dist: argparse3
+Requires-Dist: beautifulsoup4
+Requires-Dist: demjson3
+Requires-Dist: shopify-image-uploader@ git+https://github.com/ellie-cee/shopify-image-uploader.git
+Requires-Dist: xmltodict
+Requires-Dist: requests
+Requires-Dist: netsuite
+Requires-Dist: dateparser
+Requires-Dist: us
+Requires-Dist: random-password-generator
+Requires-Dist: chardet
+Requires-Dist: charset_normalizer
+Requires-Dist: dict_recursive_update
+Requires-Dist: requests
+Requires-Dist: python-slugify
+Requires-Dist: paramiko
+Requires-Dist: requests-toolbelt
+Requires-Dist: xmltodict
+Requires-Dist: cffi
+Requires-Dist: pillow
+Requires-Dist: pony
